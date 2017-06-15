@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	#gameSpace{
+		position: relative;
+		width: 320px;
+		height: 160px;
+		border: 1px solid #999;
+		background-image: url('assets/background_game.jpg');
+	}
+	.snake-cell{
+		width: 16px;
+		height: 16px;
+		background-image: url('assets/snake_base.png');
+		display: inline-block;
+		position: absolute;
+	}
+	#food-cell{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		background-image: url('assets/food.png');
+		display:inline-block;
+	}
+	.board-cell{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+	
+		display: inline-block;
+	}
+	</style>
+</head>
+<body>
+	<div id="gameSpace"></div>
+</body>
+<script src="snake.js"></script>
+
+</html>
